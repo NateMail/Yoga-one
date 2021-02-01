@@ -1,13 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { Container, Row } from "react-bootstrap";
+import "./Css/style.css";
 
-ReactDOM.render(
-  <Container>
-    <Row>
-      <App />
-    </Row>
-  </Container>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
