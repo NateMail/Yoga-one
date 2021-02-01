@@ -1,10 +1,14 @@
 import React from "react";
+import VerticalNav from "./Navigation/VerticalNav";
 
 const Home = () => {
   return (
-    <div className="Home">
-      <h1 className="Home__text">Home</h1>
-    </div>
+    <>
+      <VerticalNav />
+      <div className="Home">
+        <h1 className="Home__text">Home</h1>
+      </div>
+    </>
   );
 };
 
