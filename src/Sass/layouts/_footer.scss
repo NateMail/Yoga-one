@@ -1,5 +1,10 @@
 .footer {
   background: $footer-primary;
+  font-size: 2rem;
   height: 25vh;
   width: 100vw;
+
+  &__text {
+    text-align: center;
+  }
 }

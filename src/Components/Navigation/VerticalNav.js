@@ -4,7 +4,7 @@ const VerticalNav = () => {
   return (
     <ul className="VerticalNav">
       <a className="VerticalNav__a" href="#top">
-        Home
+        Top
       </a>
       <a className="VerticalNav__a" href="#about">
         About Us
@@ -15,7 +15,7 @@ const VerticalNav = () => {
       <a className="VerticalNav__a" href="#schedule">
         Schedule
       </a>
-      <a className="VerticalNav__a" href="#pricing">
+      <a className="VerticalNav__a" href="#price">
         Pricing
       </a>
     </ul>

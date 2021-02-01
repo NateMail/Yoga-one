@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%; // 1 rem = 10px;
+}
+
 body {
   background-color: $body-primary;
+  margin: 0;
 }
