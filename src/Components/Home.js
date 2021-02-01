@@ -1,12 +1,21 @@
 import React from "react";
 import VerticalNav from "./Navigation/VerticalNav";
+import Top from "./Top";
+import About from "./About";
+import Classes from "./Classes";
+import Price from "./Price";
+import Schedule from "./Schedule";
 
 const Home = () => {
   return (
     <>
       <VerticalNav />
       <div className="Home">
-        <h1 className="Home__text">Home</h1>
+        <Top />
+        <About />
+        <Classes />
+        <Schedule />
+        <Price />
       </div>
     </>
   );

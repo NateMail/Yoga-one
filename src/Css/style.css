@@ -8,6 +8,31 @@
 body {
   background-color: #d1f4fa; }
 
+.About {
+  background-color: yellow;
+  height: 100%;
+  width: 100%; }
+
+.Top {
+  background-color: blue;
+  height: 100%;
+  width: 100%; }
+
+.Classes {
+  background-color: green;
+  height: 100%;
+  width: 100%; }
+
+.Price {
+  background-color: lightsalmon;
+  height: 100%;
+  width: 100%; }
+
+.Schedule {
+  background-color: maroon;
+  height: 100%;
+  width: 100%; }
+
 .footer {
   background: #edf9fc;
   height: 25vh;
@@ -54,6 +79,7 @@ body {
   background-color: #dcdcde;
   height: 100vh;
   width: 85vw;
-  margin-left: 15vw; }
+  margin-left: 15vw;
+  overflow: scroll; }
   .Home__text {
     color: purple; }
