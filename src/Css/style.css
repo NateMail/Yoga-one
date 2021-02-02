@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #d1f4fa;
+  margin: 0; }
+
+.About {
+  background-color: yellow;
+  height: 100%;
+  width: 100%; }
+
+.Top {
+  background-color: blue;
+  height: 100%;
+  width: 100%; }
+
+.Classes {
+  background-color: green;
+  height: 100%;
+  width: 100%; }
+
+.Price {
+  background-color: lightsalmon;
+  height: 100%;
+  width: 100%; }
+
+.Schedule {
+  background-color: maroon;
+  height: 100%;
+  width: 100%; }
+
+.footer {
+  background: #edf9fc;
+  font-size: 2rem;
+  height: 25vh;
+  width: 100vw; }
+  .footer__text {
+    text-align: center; }
+
+.Hero {
+  background: url("../Images/heroYoga.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100vw; }
+  .Hero__container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    grid-template-rows: repeat(5, 1fr);
+    width: 100%; }
+    .Hero__container__text {
+      background-color: white;
+      color: black;
+      grid-column: 2/5;
+      grid-row: 3;
+      text-align: center; }
+
+.VerticalNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  width: 15vw;
+  background-color: white;
+  position: absolute;
+  height: 100vh;
+  overflow: auto; }
+  .VerticalNav__a {
+    display: block;
+    color: black;
+    margin-top: 50%;
+    text-align: center;
+    text-decoration: none; }
+
+.Home {
+  background-color: #dcdcde;
+  height: 100vh;
+  width: 85vw;
+  margin-left: 15vw;
+  overflow: scroll;
+  scroll-behavior: smooth; }
+  .Home__text {
+    color: purple; }
